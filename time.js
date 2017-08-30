@@ -119,7 +119,7 @@ if(today == sunday){
     checkopenclose(7,22,[1,0,0,0,0,0,1], "The Quick Stop");
 }
 if(today >= 1 && today <= 6){
-    checkopenclose(19,23,[0,0,0,0,0,0,1], "Junction Late Night");
+    checkopenclose(21,23,[0,0,0,0,0,0,1], "Junction Late Night");
 }
     document.getElementById('update').innerHTML = "Time updated as of " + dayName + " at " + time;
     console.log("updated")
