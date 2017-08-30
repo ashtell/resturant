@@ -59,7 +59,7 @@ var hours = data.getHours();
     if(hours == 12){
         hourchange = true;
     }
-    if(hours > 10){
+    else if(hours > 10){
         hours = hours - 12;
         hourchange = true;
     }else{
