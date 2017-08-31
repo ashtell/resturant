@@ -56,14 +56,15 @@ var friday = 5;
 var saturday = 6;
 var hourchange = false;
 var hours = data.getHours();
-    if(hours == 12){
-        hourchange = true;
-    }
-    else if(hours > 10){
-        hours = hours - 12;
-        hourchange = true;
+
+    if(hours > 9){
+        if(hours < 13 && hours > 9){
+            hourchange = true;
+        }else{
+            hours = hours - 12;
+            hourchange = true;
+        }
     }else{
-        hours = "0" + hours;
         hourchange = false;
     }
 var minutes = data.getMinutes();
