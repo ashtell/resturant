@@ -11,42 +11,64 @@
             margin: 100px;
         }
     }
-    #marketplaceHours{
+
+    #marketplaceHours {
+        display: none;
+    }
+
+    #junctionHours {
+        display: none;
+    }
+    #skyroomHours {
         display: none;
     }
 </style>
-
 <html>
-    <head>
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>
-            USU Food
-        </title>
-        <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-    </head>
-    <body><center>
+    <title>
+        USU Food
+    </title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <center>
         <div id="update"></div>
-        <div onclick="showTime('marketplaceHours')" id="The MarketPlace"></div>
+        <div onclick="showTime('The MarketPlace', 'marketplaceHours')" id="The MarketPlace"></div>
         <div id="marketplaceHours">
             <br />
             <h4>Hours</h4>
             <p>Monday-Saturday*: 11:00 AM - 8:00 PM</p>
+            <p>Sunday: Closed</p>
             <br />
             <h6>*Closed all university holidays</h6>
         </div>
         <br>
-        <div id="Junction"></div>
+        <div onclick="showTime('Junction', 'junctionHours')" id="Junction"></div>
+        <div id="junctionHours">
+            <br />
+            <h4>Hours</h4>
+            <p>Friday: 7:00 AM - 2:00 PM</p>
+            <p>Saturday*: Closed</p>
+            <p>Sunday: 10:00 AM - 7:00 PM</p>
+            <h6>*Late Night Meals Available</h6>
+        </div>
         <br>
-        <div id="The skyroom"></div>
+        <div onclick="showTime('The skyroom', 'skyroomHours')" id="The skyroom"></div>
+        <div id="skyroomHours">
+            <br />
+            <h4>Hours</h4>
+            <p>Monday-Friday: 11:00 AM - 2:00 PM</p>
+            <p>Saturday-Sunday: Closed</p>
+        </div>
         <br>
         <div id="The Hub"></div>
         <br>
         <div id="Quad Side Cafe"></div>
         <br>
-        <div id="Lukes cafe on the Quad"></div>
+        <div id="Lukes cafe on the Quad">></div>
         <br>
         <div id="Artist's Block"></div>
         <br>
@@ -54,15 +76,18 @@
         <br>
         <div id="The Nook"></div>
         <br>
-        <div id="The Quick Stop"></div>
+        <div id="The Quick Stop">></div>
         <br>
         <div id="Junction Late Night"></div>
-
-        <div id="downloadLinkAndroid"><h3><a href="https://build.phonegap.com/apps/2838099/download/android/?qr_key=Kh2qETdHz3dx9vzFDp2x">Install the Android app</a></h3></div>
-        <div id="downloadLinkIOS"><h5><a href="mailto:mhallisawesome@gmail.com?Subject=IOS%20APP&amp;body=I%20would%20love%20to%20get%20more%20information%20about%20the%20iOS%20version%20of%20this%20app.%20if%20you%20could%20get%20back%20to%20me%2C%20that%20would%20be%20great" target="_top">Request the IOS app</a></h5></div>
+        <div id="downloadLinkAndroid">
+            <h3><a href="https://build.phonegap.com/apps/2838099/download/android/?qr_key=Kh2qETdHz3dx9vzFDp2x">Install the Android app</a></h3>
+        </div>
+        <div id="downloadLinkIOS">
+            <h5><a href="mailto:mhallisawesome@gmail.com?Subject=IOS%20APP&amp;body=I%20would%20love%20to%20get%20more%20information%20about%20the%20iOS%20version%20of%20this%20app.%20if%20you%20could%20get%20back%20to%20me%2C%20that%20would%20be%20great" target="_top">Request the IOS app</a></h5>
+        </div>
         <h6>This website is in no way affiliated with, authorized, maintained, sponsored or endorsed by USU. <br> This is an independent, unofficial site. <br> All information on this site is unofficial and subject to change without notice.</h6>
-        </center>
-    </body>
+    </center>
+</body>
 </html>
 <script src="time.js"></script>
 <script src="jquery-3.2.1.min.js"></script>
