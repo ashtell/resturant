@@ -1,4 +1,21 @@
 <!DOCTYPE html>
+<style>
+    @media screen and (max-width: 640px) {
+        body {
+            margin: 25px;
+        }
+    }
+
+    @media screen and (min-width: 641px) {
+        body {
+            margin: 100px;
+        }
+    }
+    #marketplaceHours{
+        display: none;
+    }
+</style>
+
 <html>
     <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,22 +27,16 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
     </head>
-    <style>
-        @media screen and (max-width: 640px){
-            body{
-                margin: 25px;
-            }
-            
-        }
-        @media screen and (min-width: 641px){
-            body{
-                margin: 100px;
-            }
-        }
-    </style>
     <body><center>
         <div id="update"></div>
-        <div id="The MarketPlace"></div>
+        <div onclick="showTime('marketplaceHours')" id="The MarketPlace"></div>
+        <div id="marketplaceHours">
+            <br />
+            <h4>Hours</h4>
+            <p>Monday-Saturday*: 11:00 AM - 8:00 PM</p>
+            <br />
+            <h6>*Closed all university holidays</h6>
+        </div>
         <br>
         <div id="Junction"></div>
         <br>
@@ -46,8 +57,13 @@
         <div id="The Quick Stop"></div>
         <br>
         <div id="Junction Late Night"></div>
+
+        <div id="downloadLinkAndroid"><h3><a href="https://build.phonegap.com/apps/2838099/download/android/?qr_key=Kh2qETdHz3dx9vzFDp2x">Install the Android app</a></h3></div>
+        <div id="downloadLinkIOS"><h5><a href="mailto:mhallisawesome@gmail.com?Subject=IOS%20APP&amp;body=I%20would%20love%20to%20get%20more%20information%20about%20the%20iOS%20version%20of%20this%20app.%20if%20you%20could%20get%20back%20to%20me%2C%20that%20would%20be%20great" target="_top">Request the IOS app</a></h5></div>
         <h6>This website is in no way affiliated with, authorized, maintained, sponsored or endorsed by USU. <br> This is an independent, unofficial site. <br> All information on this site is unofficial and subject to change without notice.</h6>
         </center>
     </body>
-    <script src="time.js"></script>
 </html>
+<script src="time.js"></script>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="menu.js"></script>
