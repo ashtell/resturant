@@ -1,4 +1,4 @@
-function showTime(divInside) {
+function showTime(divOutside, divInside) {
     var x = document.getElementById(divInside);
     if (x.style.display === "none") {
         x.style.display = "block";
