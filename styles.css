@@ -1,0 +1,25 @@
+@media screen and (max-width: 640px) {
+    body {
+        margin: 25px;
+    }
+}
+
+@media screen and (min-width: 641px) {
+    body {
+        margin: 100px;
+    }
+}
+
+#marketplaceHours {
+    display: none;
+}
+
+#junctionHours {
+    display: none;
+}
+#skyroomHours {
+    display: none;
+}
+#hubHours {
+    display: none;
+}
