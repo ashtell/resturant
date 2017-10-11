@@ -84,8 +84,8 @@ if(today == sunday){
     checkopenclose(7,21,[1,0,0,0,0,0,1], "The Hub");
     checkopenclose(12,22.5,[0,0,0,0,0,0,0], "Quad Side Cafe");
     checkopenclose(7,19,[1,0,0,0,0,0,1], "Lukes cafe on the Quad");
-    checkopenclose(7.5,20,[1,0,0,0,0,0,1], "Artist's Block");
-    checkopenclose(7.5,19,[1,0,0,0,0,0,1], "Shaw's Kitchen");
+    checkopenclose(7.5,20,[1,0,0,0,0,0,1], "Artists Block");
+    checkopenclose(7.5,19,[1,0,0,0,0,0,1], "Shaws Kitchen");
     checkopenclose(7.5,17.5,[1,0,0,0,0,0,1], "The Nook");
     checkopenclose(7,22,[1,0,0,0,0,0,1], "The Quick Stop");
 }else if(today >= monday && today <= thursday){
@@ -95,8 +95,8 @@ if(today == sunday){
     checkopenclose(7,21,[1,0,0,0,0,0,1], "The Hub");
     checkopenclose(7,22.5,[0,0,0,0,0,0,0], "Quad Side Cafe");
     checkopenclose(7,19,[1,0,0,0,0,0,1], "Lukes cafe on the Quad");
-    checkopenclose(7.5,20,[1,0,0,0,0,0,1], "Artist's Block");
-    checkopenclose(7.5,19,[1,0,0,0,0,0,1], "Shaw's Kitchen");
+    checkopenclose(7.5,20,[1,0,0,0,0,0,1], "Artists Block");
+    checkopenclose(7.5,19,[1,0,0,0,0,0,1], "Shaws Kitchen");
     checkopenclose(7.5,17.5,[1,0,0,0,0,0,1], "The Nook");
     checkopenclose(7,22,[1,0,0,0,0,0,1], "The Quick Stop");
 }else if(today == friday){
@@ -106,8 +106,8 @@ if(today == sunday){
     checkopenclose(7,19,[1,0,0,0,0,0,1], "The Hub");
     checkopenclose(7,17,[0,0,0,0,0,0,0], "Quad Side Cafe");
     checkopenclose(7,18,[1,0,0,0,0,0,1], "Lukes cafe on the Quad");
-    checkopenclose(7.5,18,[1,0,0,0,0,0,1], "Artist's Block");
-    checkopenclose(7.5,14,[1,0,0,0,0,0,1], "Shaw's Kitchen");
+    checkopenclose(7.5,18,[1,0,0,0,0,0,1], "Artists Block");
+    checkopenclose(7.5,14,[1,0,0,0,0,0,1], "Shaws Kitchen");
     checkopenclose(7.5,15,[1,0,0,0,0,0,1], "The Nook");
     checkopenclose(7,21,[1,0,0,0,0,0,1], "The Quick Stop");
 }else if(today == saturday){
@@ -117,8 +117,8 @@ if(today == sunday){
     checkopenclose(7,21,[1,0,0,0,0,0,1], "The Hub");
     checkopenclose(10,17,[0,0,0,0,0,0,0], "Quad Side Cafe");
     checkopenclose(7,19,[1,0,0,0,0,0,1], "Lukes cafe on the Quad");
-    checkopenclose(7.5,20,[1,0,0,0,0,0,1], "Artist's Block");
-    checkopenclose(7.5,19,[1,0,0,0,0,0,1], "Shaw's Kitchen");
+    checkopenclose(7.5,20,[1,0,0,0,0,0,1], "Artists Block");
+    checkopenclose(7.5,19,[1,0,0,0,0,0,1], "Shaws Kitchen");
     checkopenclose(7.5,17.5,[1,0,0,0,0,0,1], "The Nook");
     checkopenclose(7,22,[1,0,0,0,0,0,1], "The Quick Stop");
 }
