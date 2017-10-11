@@ -17,9 +17,32 @@
 #junctionHours {
     display: none;
 }
+
 #skyroomHours {
     display: none;
 }
+
 #hubHours {
+    display: none;
+}
+#quadsideCafeHours {
+    display: none;
+}
+#lukesCafeHours {
+    display: none;
+}
+#artistsBlocksHours{
+    display: none;
+}
+#shawsKitchenHours{
+    display: none;
+}
+#nookHours{
+    display: none;
+}
+#quickStopHours{
+    display: none;
+}
+#lateNightHours{
     display: none;
 }
